@@ -1,0 +1,44 @@
+.how-to-play-container {
+  width: 95%;
+  background-color: lightblue;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1% 1% 4%;
+  color: black;
+  opacity: 90%;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cross {
+  padding: 0 0.5%;
+  display: inline-flex;
+  position: relative;
+  left: 95%;
+  border-color: white;
+  border-style: solid;
+  margin: 1%;
+  color: red;
+  background-color: lightblue;
+}
+
+.how-to-play-title {
+  text-align: center;
+}

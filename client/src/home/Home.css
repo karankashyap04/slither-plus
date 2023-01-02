@@ -1,0 +1,85 @@
+.main-container {
+  position: relative;
+}
+
+.how-to-play-display {
+  position: absolute;
+  top: 20vh;
+  left: 22vw;
+  z-index: 9;
+}
+
+.HomeContainer {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  font-family: monospace;
+  padding: 10% 20% 5%;
+}
+
+.how-to-play-button {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+
+.main-title {
+  color: lightgreen;
+  font-size: 5rem;
+}
+
+.title-plus {
+  color: orange;
+}
+
+.username-prompt {
+  color: violet;
+  margin: 2%;
+}
+
+.username-input {
+  border-radius: 5%;
+  height: 2rem;
+  background-color: lightslategray;
+  color: lightgreen;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+  width: 30%;
+}
+
+::placeholder {
+  color: lightgreen;
+}
+
+.error-text {
+  color: red;
+}
+
+.new-game-button {
+  margin-top: 7%;
+}
+
+.or-text {
+  margin-top: 20%;
+}
+
+.join-with-gamecode-text {
+  font-size: 1.1rem;
+}
+
+.gamecode-input {
+  border-radius: 5%;
+  height: 2rem;
+  background-color: lightslategray;
+  color: lightgreen;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+  width: 70%;
+}

@@ -1,0 +1,19 @@
+.leaderboard {
+  background-color: lightslategray;
+  position: fixed;
+  top: 2%;
+  right: 1%;
+  opacity: 60%;
+}
+
+.leaderboard-title {
+  color: aqua;
+}
+
+.username-entry {
+  color: white;
+}
+
+.score-entry {
+  color: yellow;
+}
